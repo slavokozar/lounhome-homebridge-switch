@@ -35,7 +35,7 @@ getServices: function () {
     this.informationService = informationService;
     this.switchService = switchService;
     return [informationService, switchService];
-  }
+  },
 
   getSwitchOnCharacteristic: function (next) {
     const me = this;

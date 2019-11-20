@@ -2,7 +2,7 @@ const request = require('request');
 const url = require('url');
 
 
-const Service, Characteristic;
+let Service, Characteristic;
 
 module.exports = function (homebridge) {
   Service = homebridge.hap.Service;

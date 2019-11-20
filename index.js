@@ -55,8 +55,8 @@ getServices: function () {
   },
 
   setSwitchOnCharacteristic: function (on, next) {
-    const me = this;
-§§me.log('ferko');
+    const me = this; 
+me.log('ferko');
 	me.log(on);
 	return next();
     request({

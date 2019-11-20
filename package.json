@@ -1,11 +1,23 @@
 {
-  "name": "lounhome-homebridge-switch",
+  "name": "@slavo.kozar/lounhome-homebridge-switch",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "slavo kozar (slavokozar.sk)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavokozar/lounhome-homebridge-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slavokozar/lounhome-homebridge-switch/issues"
+  },
+  "homepage": "https://github.com/slavokozar/lounhome-homebridge-switch#readme",
+  "description": ""
 }

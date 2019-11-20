@@ -39,7 +39,7 @@ getServices: function () {
 
   getSwitchOnCharacteristic: function (next) {
     const me = this;
-    return nest(null, true);
+    return next(null, true);
     request({
       url: me.getUrl,
       method: 'GET',

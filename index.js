@@ -39,6 +39,7 @@ getServices: function () {
 
   getSwitchOnCharacteristic: function (next) {
     const me = this;
+    return nest(null, true);
     request({
       url: me.getUrl,
       method: 'GET',
@@ -55,6 +56,8 @@ getServices: function () {
 
   setSwitchOnCharacteristic: function (on, next) {
     const me = this;
+§§me.log('ferko', on);
+	return next();
     request({
       url: me.postUrl,
       body: {'value': on},

@@ -39,7 +39,8 @@ getServices: function () {
 
   getSwitchOnCharacteristic: function (next) {
     const me = this;
-    return next(null, true);
+me.log("get switch");    
+return next(null, true);
     request({
       url: me.getUrl,
       method: 'GET',
